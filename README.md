@@ -1,10 +1,10 @@
 # Django Signals and Views Example
 This project demonstrates the use of Django signals and custom views to create users, handle post_save signals, and work with a custom class (Rectangle) in a web application. It covers three signal handlers, a user creation form, and a simple view for rendering a rectangle's dimensions.
 
-# Handling Django post_save signals for the User model.
-# Creating a custom view to add new users.
-# Implementing a view to display a simple geometric shape (Rectangle).
-# The signals demonstrate different approaches, including delayed execution, threading, and database transaction handling.
+ Handling Django post_save signals for the User model.
+ Creating a custom view to add new users.
+ Implementing a view to display a simple geometric shape (Rectangle).
+ The signals demonstrate different approaches, including delayed execution, threading, and database transaction handling.
 
 # Features
 1. User creation view with validation to prevent duplicate usernames.
