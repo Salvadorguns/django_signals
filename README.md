@@ -58,5 +58,9 @@ I Made a Signals.py in which i have done all the three questions implementation 
  
  Answer : By default, Django signals run in the same database transaction as the caller. To demonstrate this, we can log whether the signal handler is running inside a transaction. The output will show that both   the view and the signal handler are running inside the same transaction, proving that Django signals run in the same database transaction as the caller.
 
+ RECTANGLE CLASS
+
+ I have made a rectangle class and as well view of rectangle class in view.py for accessing the class.
+
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
