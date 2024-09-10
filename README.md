@@ -38,7 +38,7 @@ This project demonstrates the use of Django signals and custom views to create u
     Copy code
     pip install -r requirements.txt
 
-5.Apply migrations and run the server:
+5. .Apply migrations and run the server:
     Copy code
     python manage.py migrate
     python manage.py runserver
