@@ -45,14 +45,14 @@ This project demonstrates the use of Django signals and custom views to create u
 
 # FOR ACCUKNOX
 I Made a Signals.py in which i have done all the three questions implementation one by one of all three questions and my answer as per three question are:
-Question 1: By default are Django signals executed synchronously or asynchronously?
-Answer :By default, Django signals are executed synchronously. This means that the signal handlers are executed in the same thread and process as the code that triggered the signal. To demonstrate this, we can log the time before and after a delay in both the view and the signal handler. The view will wait for the signal handler to complete before continuing, proving that Django signals are executed synchronously.
+ Question 1: By default are Django signals executed synchronously or asynchronously?
+ Answer :By default, Django signals are executed synchronously. This means that the signal handlers are executed in the same thread and process as the code that triggered the signal. To demonstrate this, we can    log the time before and after a delay in both the view and the signal handler. The view will wait for the signal handler to complete before continuing, proving that Django signals are executed synchronously.
 
-Question 2: Do Django signals run in the same thread as the caller?
-Answer : Yes, Django signals run in the same thread as the caller by default. To demonstrate this, we can log the current thread name in both the view and the signal handler. The output will show that both the view and the signal handler are executed in the same thread, proving that Django signals run in the same thread as the caller.
+ Question 2: Do Django signals run in the same thread as the caller?
+ Answer : Yes, Django signals run in the same thread as the caller by default. To demonstrate this, we can log the current thread name in both the view and the signal handler. The output will show that both the    view and the signal handler are executed in the same thread, proving that Django signals run in the same thread as the caller.
 
-Question 3: By default do Django signals run in the same database transaction as the caller?
-Answer : By default, Django signals run in the same database transaction as the caller. To demonstrate this, we can log whether the signal handler is running inside a transaction. The output will show that both the view and the signal handler are running inside the same transaction, proving that Django signals run in the same database transaction as the caller.
+ Question 3: By default do Django signals run in the same database transaction as the caller?
+ Answer : By default, Django signals run in the same database transaction as the caller. To demonstrate this, we can log whether the signal handler is running inside a transaction. The output will show that both   the view and the signal handler are running inside the same transaction, proving that Django signals run in the same database transaction as the caller.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
