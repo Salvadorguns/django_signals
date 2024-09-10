@@ -45,6 +45,7 @@ This project demonstrates the use of Django signals and custom views to create u
 
 # FOR ACCUKNOX
 I Made a Signals.py in which i have done all the three questions implementation one by one of all three questions and my answer as per three question are:
+ 
  Question 1: By default are Django signals executed synchronously or asynchronously?
  
  Answer :By default, Django signals are executed synchronously. This means that the signal handlers are executed in the same thread and process as the code that triggered the signal. To demonstrate this, we can    log the time before and after a delay in both the view and the signal handler. The view will wait for the signal handler to complete before continuing, proving that Django signals are executed synchronously.
